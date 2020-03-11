@@ -1,0 +1,15 @@
+ .btn-black {
+     color: #fff;
+     background-color: black;
+     border: none;
+     padding: 8px 15px;
+     border-radius: 6px;
+ }
+.container {
+    margin-bottom: 50px;
+}
+ 
+ 
+ .carousel-indicators li {
+     background-color: orange;
+ }
