@@ -1,3 +1,4 @@
+ 
  .btn-black {
      color: #fff;
      background-color: black;
@@ -5,6 +6,7 @@
      padding: 8px 15px;
      border-radius: 6px;
  }
+  
 .container {
     margin-bottom: 50px;
 }
@@ -12,4 +14,41 @@
  
  .carousel-indicators li {
      background-color: orange;
+     padding: 1px;
  }
+
+
+ .seeall {
+     text-decoration: none;
+ }
+ 
+  .card {
+      border: none;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px lightgray;
+      transition: all .7s;
+      padding: 10px;
+  }
+
+  .card:hover {
+      transform: scale(1.03);
+  }
+.card-title {
+    font-weight: 700;
+}
+
+.cat h3::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background:orange;
+    width: 70px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+ 
+.cats {
+    text-align: center;
+}
+
